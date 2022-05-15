@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/linearL"
+    android:orientation="horizontal"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/user_name"
+        android:text="name"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/user_blood"
+        android:text="blood"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/user_adr"
+        android:text="adresse"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/user_mail"
+        android:text="mail"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/user_telephone"
+        android:text="telephone"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/user_type"
+        android:text="type"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/emailNow"
+android:layout_margin="5dp"
+    android:text="email"
+    android:textAllCaps="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+</Button>
+    <View
+        android:layout_below="@+id/main"
+
+        android:background="#000"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp">
+
+    </View>
+</LinearLayout>
+    
+</RelativeLayout>

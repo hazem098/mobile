@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:title="home"/>
+    <item
+        android:id="@+id/send_mail"
+        android:title="donnor email"/>
+    <item
+        android:title="blood group">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/Aplus"
+                    android:title="A+"/>
+                <item
+                    android:id="@+id/Amoins"
+                    android:title="A-"/>
+                <item
+                    android:id="@+id/Bplus"
+                    android:title="B+"/>
+                <item
+                    android:id="@+id/Bmoins"
+                    android:title="B-"/>
+                <item
+                    android:id="@+id/ABplus"
+                    android:title="AB+"/>
+                <item
+                    android:id="@+id/ABmoins"
+                    android:title="AB-"/>
+                <item
+                    android:id="@+id/Oplus"
+                    android:title="O+"/>
+                <item
+                    android:id="@+id/Omoins"
+                    android:title="O-"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="action">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/profile"
+                    android:title="profile"/>
+                <item
+                    android:id="@+id/notification"
+                    android:title="notification"/>
+                <item
+                    android:id="@+id/logout"
+                    android:title="logout"/>
+
+
+            </group>
+        </menu>
+    </item>
+</menu>

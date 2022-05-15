@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/prof_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#Be5025"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <TextView
+        android:id="@+id/prof_blood"
+        android:text="blood"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/prof_name"
+        android:text="nom"
+
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/prof_adresse"
+        android:text="adresse"
+
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/prof_tel"
+        android:text="telephone"
+
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/prof_mail"
+        android:text="mail"
+
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/prof_type"
+        android:text="type"
+
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textAllCaps="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="back"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"/>
+</LinearLayout>
